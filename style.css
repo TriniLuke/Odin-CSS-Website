@@ -5,13 +5,12 @@ body {
 }
 .header {
     background-color: #1f2937;
-    width: 100vw;
+    width: 100%;
 }
 .wrap {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
     max-width: 1000px;
     margin: auto;
 }
@@ -37,18 +36,11 @@ body {
     text-decoration: none;
     color: #e5e7eb;
 }
-.wrap-two {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #1f2937;
-    max-width: 1000px;
-    margin: auto;
-}
 .hero {
     display: flex;
-    width: 100vw;
-    background-color: #1f2937;
+    width: 100%;
     color: #e5e7eb;
+    background-color: #1f2937;
     padding-top: 75px;
     padding-bottom: 75px;
 }
@@ -82,7 +74,9 @@ h1 {
 .info {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 75px;
+    padding-bottom: 150px;
 }
 .product {
     width: 150px;
@@ -94,4 +88,56 @@ h1 {
 img {
     width: 150px;
     height: 150px;
+}
+.quote {
+    background-color: #e5e7eb;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.wrap-two {
+    width: 800px;
+    margin: auto;
+}
+.quotes {
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+.name {
+    text-align: right;
+    font-weight: 900;
+}
+.call-banner {
+    width: 100%;
+    padding: 70px 0px;
+}
+.wrap-three {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 20px 100px;
+    width: 800px;
+    margin: auto;
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+}
+.head-text-two {
+    font-weight: 700;
+}
+.button-two {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.footer {
+    background-color: #1f2937;
+    width: 100%;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 20px;
 }
