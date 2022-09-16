@@ -6,10 +6,10 @@ body {
 .header {
     background-color: #1f2937;
     width: 100vw;
-    padding: 10px;
 }
 .wrap {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: #1f2937;
     max-width: 1000px;
@@ -26,7 +26,6 @@ body {
 }
 .head-links ul {
     display: flex;
-    margin-right: auto;
     align-items: flex-end;
     gap: 15px;
     flex: 1;
@@ -44,15 +43,14 @@ body {
     background-color: #1f2937;
     max-width: 1000px;
     margin: auto;
-    gap: 20px;
 }
 .hero {
     display: flex;
-    align-items: stretch;
+    width: 100vw;
     background-color: #1f2937;
     color: #e5e7eb;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 .left-content,.right-content {
     max-width: 480px;
@@ -73,4 +71,27 @@ button {
     border: 1px solid #3882f6;
     border-radius: 5px;
     padding: 5px 20px;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+.product {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+}
+img {
+    width: 150px;
+    height: 150px;
 }
